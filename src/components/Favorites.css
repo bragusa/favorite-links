@@ -1,0 +1,82 @@
+.fav-folder {
+  width: 100vw;
+  height: calc(100vh - 2rem);
+}
+
+.fav-top-folder {
+  width: 100vw;
+  height: 0;
+}
+
+.fav-favorites {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 1rem;
+  width: calc(100% - 2rem);
+}
+
+header.fav-header {
+  background-color: #282c34;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: 1.25rem;
+  min-height: 2.5rem;
+}
+
+header.fav-header:empty {
+  background-color: transparent;
+  min-height: 58px;
+}
+
+header.fav-header button {
+  border: 0;
+  background-color: #1c1f24;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-inline: 0.5rem;
+}
+
+header.fav-header:hover button {
+  filter: invert(10%);
+}
+
+header.fav-header button img {
+  filter: invert(50%);
+}
+
+header.fav-header:hover button img {
+  filter: invert(100%);
+}
+
+header.fav-header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-inline-start: 0;
+  margin: 0;
+}
+
+header.fav-header ul li {
+  margin-inline-end: 0.25rem;
+}
+
+header.fav-header ul li a {
+  color: #fff;
+}
+
+header.fav-header ul li:not(:last-of-type):hover,
+header.fav-header ul li:not(:last-of-type):hover a {
+  color: blue !important;
+}
+
+header.fav-header ul li:not(:last-of-type):after {
+  content: ' / ';
+}

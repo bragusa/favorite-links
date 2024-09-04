@@ -1,0 +1,75 @@
+.edit-dialog {
+  width: 100%;
+  height: auto;
+}
+
+.edit-image-div   {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.edit-image-div > * {
+  display: flex;
+  margin-inline: 1rem;
+  justify-content: flex-start;
+}
+
+.edit-image-div > label {
+  font-size: 80%;
+}
+
+.edit-dialog img,
+.edit-dialog input[type='text'] {
+  width: 2rem;
+  height: 2rem;
+  max-width: 2rem;
+  max-height: 2rem;
+  pointer-events: none;
+  background-color: transparent;
+  border: 0;
+  font-size: 150%;
+}
+
+.edit-dialog input[type='text'] {
+  margin-top: -0.25rem;
+}
+
+.edit-dialog .fav-folder-link {
+  position: relative;
+  height: 6rem;
+  left: 0px;
+  width: auto;
+  width: 5rem;
+  margin-top: 1.5rem;
+  margin-bottom: -.5rem;
+}
+.edit-dialog .fav-folder-link .color-input {
+  opacity: 0;
+  z-index: -1;
+  margin: 1.25rem 0 0 1rem;
+  position: absolute;
+}
+
+.edit-dialog .fav-folder-link:hover {
+  filter: drop-shadow(2px 4px 6px #fff);
+}
+
+button.folder-image {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+}
+
+button svg.folder-svg {
+  filter: drop-shadow(1px 1px 1px #eeeeee);
+}
+
+.edit-dialog button.default {
+  background: transparent;
+  border: 0;
+  background-color: rgb(216, 216, 216);
+}
+
+.edit-dialog button.default:hover {
+  background-color: rgb(181, 181, 181);
+}

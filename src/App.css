@@ -1,10 +1,16 @@
-.App {
-  text-align: center;
+
+html {
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div#root {
+  background-color: #000;
+  color: #fff;
+}
+
+
+.App {
+  text-align: start;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -15,24 +21,132 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 3rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-inline: 1vw;
+  cursor: default;
 }
 
-.App-link {
-  color: #61dafb;
+.App-header > div {
+  display: flex;
+  align-items: stretch;
+  overflow: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.App-header > div:first-of-type {
+  display: flex;
+  align-items: center;
+  overflow: visible;
+}
+
+.App-header button {
+  align-items: baseline;
+  margin: 0.5rem 0rem;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  margin-inline: 0.25rem;
+}
+
+.App-header button:not([disabled]):hover {
+  background-color: #515866;
+  border: 1px solid #fff;
+}
+
+.App-header button img {
+  /* margin-bottom: -4px; */
+  filter: invert(1);
+  margin-inline-end: 0;
+  height: 1.25rem;
+}
+
+header.App-header  ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-inline-start: 0;
+  margin: 0;
+  white-space: nowrap;
+  font-size: 1rem;
+}
+
+header.App-header ul li {
+  margin-inline-end: 0.25rem;
+  font-size: 2rem;
+}
+
+header.App-header ul li button {
+  color: #fff;
+  background-color: transparent;
+  font-size: 1rem;
+  display: inline;
+  margin: 0;
+  height: 2rem;
+}
+
+header.App-header ul li {
+  font-size: 1rem;
+}
+
+@media only screen 
+and (max-width : 550px) {
+  
+  header.App-header ul li,
+  header.App-header ul li button {
+    font-size: 1rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  header.App-header {
+    flex-direction: column;
   }
+}
+
+/* @media only screen 
+and (max-width : 650px) {
+  header.App-header ul li,
+  header.App-header ul li button {
+    font-size: 3vw;
+  }
+}
+ */
+@media only screen 
+and (min-width : 651px) {
+  header.App-header ul li,
+  header.App-header ul li button {
+    font-size: 1rem;
+  }
+}
+
+header.App-header  ul li:not(:last-of-type):hover,
+header.App-header  ul li:not(:last-of-type):hover button {
+  color: #e6e6e6 !important;
+}
+
+/* header.App-header  ul li:not(:last-of-type):after {
+  content: ' / ';
+  color: #fff;
+  width: 60px;
+} */
+
+
+label {
+  display: block;
+}
+
+input {
+  height: 1.5rem;
+  margin-block: 0.25rem;
+  width: calc(100% - 0.5rem);
+  margin-bottom: 1rem;;
 }

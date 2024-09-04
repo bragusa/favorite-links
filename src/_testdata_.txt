@@ -1,0 +1,1156 @@
+{
+  "childOrder": [
+    "FAV_1721245660783",
+    "FAV_1714060586820",
+    "FAV_1713183435245",
+    "FAV_1714059704631",
+    "FAV_1712929995257",
+    "FAV_1714064661144",
+    "FAV_1713440023664",
+    "FAV_1712928545438",
+    "FAV_1712928567085",
+    "FAV_1721304530204",
+    "FAV_1716382729092",
+    "FAV_1717454905523",
+    "FAV_1717679439687",
+    "FAV_1718111900740",
+    "FAV_1719329549278",
+    "FAV_1721408929641",
+    "FAV_1714065493941",
+    "FAV_1722534102839"
+  ],
+  "children": {
+    "FAV_1712928545438": {
+      "id": "FAV_1712928545438",
+      "isFolder": true,
+      "children": {
+        "FAV_1712937494707": {
+          "id": "FAV_1712937494707",
+          "label": "AskHR",
+          "url": "https://w3.ibm.com/hr/askhr/home",
+          "imageSrc": "💬",
+          "invertImage": false,
+          "emojiColor": "#000000"
+        },
+        "FAV_1712937667148": {
+          "id": "FAV_1712937667148",
+          "isFolder": true,
+          "children": {
+            "FAV_1712937478658": {
+              "id": "FAV_1712937478658",
+              "label": "Checkpoint",
+              "url": "https://cloud.workhuman.com/conversations/?client=ibmcorp&setCAG=false#/ibmcorp/14708804/teams",
+              "imageSrc": "https://cloud.workhuman.com/favicon.ico",
+              "invertImage": false,
+              "emojiColor": "#000000"
+            },
+            "FAV_1712937469258": {
+              "id": "FAV_1712937469258",
+              "label": "Workday",
+              "url": "https://wd5.myworkday.com/ibm/d/home.htmld",
+              "imageSrc": "https://wd5.myworkday.com/favicon.ico",
+              "invertImage": false,
+              "emojiColor": "#000000"
+            },
+            "FAV_1712937815835": {
+              "id": "FAV_1712937815835",
+              "label": "Talent Review",
+              "url": "https://ibm.box.com/s/lxbvy1fr09s9q7r2l4uxc76kbwalndaj",
+              "imageSrc": "https://cdn-icons-png.freepik.com/512/912/912318.png?ga=GA1.1.676886586.1711453831",
+              "invertImage": true,
+              "emojiColor": "#000000",
+              "useColor": false
+            },
+            "FAV_1713888325072": {
+              "id": "FAV_1713888325072",
+              "label": "Overpayments",
+              "url": "https://recovery.gra.ibm.com/",
+              "imageSrc": "$",
+              "invertImage": false,
+              "emojiColor": "#000000",
+              "useColor": false
+            },
+            "FAV_1716550089575": {
+              "id": "FAV_1716550089575",
+              "label": "Direct Report Folders",
+              "url": "https://ibm.ent.box.com/folder/225030455045?s=67n32b1w2k6c18o0ro5bo6rbj7es26sh",
+              "imageSrc": "https://ibm.ent.box.com/favicon.ico",
+              "invertImage": false,
+              "emojiColor": "#000000",
+              "useColor": false
+            },
+            "FAV_1721822459936": {
+              "id": "FAV_1721822459936",
+              "label": "Organization chart",
+              "url": "https://pages.github.ibm.com/maximoappsuite/playbook/orgchart/",
+              "imageSrc": "https://cdn.iconscout.com/icon/free/png-256/free-flowchart-108-1163728.png",
+              "invertImage": true,
+              "emojiColor": "#000000",
+              "useColor": false
+            },
+            "FAV_1722254307543": {
+              "id": "FAV_1722254307543",
+              "isFolder": true,
+              "children": {
+                "FAV_1722254324048": {
+                  "id": "FAV_1722254324048",
+                  "label": "Technology Careers",
+                  "url": "https://w3.ibm.com/w3publisher/technology-careers/perform/developer-software",
+                  "imageSrc": "https://w3.ibm.com/favicon.ico",
+                  "invertImage": false,
+                  "emojiColor": "#000000",
+                  "useColor": false
+                }
+              },
+              "childOrder": ["FAV_1722254324048"],
+              "label": "Performance",
+              "imageSrc": "",
+              "invertImage": false,
+              "emojiColor": "#000000"
+            },
+            "FAV_1722424655877": {
+              "id": "FAV_1722424655877",
+              "isFolder": true,
+              "children": {
+                "FAV_1722424704795": {
+                  "id": "FAV_1722424704795",
+                  "label": " Code Sandbox Answers",
+                  "url": "https://codesandbox.io/s/interview-answer-key-npc4yj",
+                  "imageSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACUCAMAAAA9M+IXAAAAY1BMVEX///8AAACQkJD39/fv7+96enrGxsbm5ubU1NQVFRVCQkJgYGDd3d26urqLi4sODg7AwMCoqKg3NzdwcHDOzs5HR0dmZma0tLSAgIAvLy9ra2ucnJxZWVlNTU0qKipSUlIiIiIvTbqMAAAD40lEQVR4nO2c7ZKqMAxAqRQQFYQVRQXE93/Kq153aSHANq22zub8s+PImdqPNAE8jyAIgiAI4m/hc859hXa7LI8xY03SF/OLA2OsHbRbpriyBymXmv382b6w5AXDV4wBvn5++W7PrLkBVN9WbCv6fvftjb09uSEH1pH+jNN8KzTb1OuzFrxY8PTNxUandAPJbPfwlW23thVFMkmNHfltlsVSU2pbUSLo+W6EWfaYaZFtQwl+kOzi9iR9bgrbgj2iMxtn75rtpO9qCXzfX4a6bHR8+W6sbwHbKBj5shq9PV+JCPaF+rbbtDWpNWIn0BfqW2/sj1BHJ3biw/ELrgnRFrgwjqtOaDoYvy3Ut15izJZttRadRe/XduBcKA3q6kSm1eDnQN+lOd0Yv136Q1vGzpDv3pjuWsMWnEFQ/xZX6JsITuitwq9GHALg/0pqI7br0Lgt7Btl1UKXPMMPXHgkPH3B9cHXBe06XMFk4PXMHr01oQ6PPV+n8iKFLNduPN7zTWwrish7b3NfXXq+K9uKItKyVP+PE3q+lg0l2qHtbeYHruoKaZGmi8G44HuxaDegC7FqcVf0u/HgVErvZ67V8h7O02d74NRCduvHe2IhDvoRB6/uwdd+4dg24XlhmecZ0IfLsizBIwVBEATxp+BJDlO6leh/EMnZfhnnsuf8a8KWsSs6H/Aa5pLhjVMRGY9ndJlTwyGczS9XthVFklldp6qWpPtKSPeVCLq1sP0GU7rRRhf0eVXQPQobQjKuW673K12aNTJRKOimv9I1VbbEjTFV3enktQrlG3R9c0VWVO5NUTc0ZstiTMpFUdd2kdVi72LqgKpT7bPGrsHRgDqmKK+7iwtwaXVOuDBa3NV4V1YUOrG/nofH81qXc4o8owi6TdpxGNe9HZgiXUzEDCO4GpGRrnFI95XM5xly24oi/mwWR+tuUOOkM7YHp3Jknjd9y+jJuULg4nKNR7hAtzrZxi8ymNC5gjBBEATxfkafiilc3CbyevU1QuvejU5TD1Qx1joWNMwlbM9uBZCzd+o7FZ4Xs6cJpw4/H3a0JN1XQrqvRND9Ou9+aKd076/F0AO9lquno5d5GuiS5sh8gHKyPzfzKOseVbRU1s2AS6PYovpXVfcEXBkH6q0airoFcF0k7ygDfliR1djQfU8Jmxt8ChthqzzV5tLBvwdVtlTV9RtDtgeMrfo24VWXsWywAidk0C/oHpIus5uO63petNQFfV793IiMdI1Duq8km9V16nVv0WfdKj+T0WNs5VaOLJq+c+nq1nO3t6PiesJ25ZrtLWrZ5CMvqagKt0YCQRAEQRDEB/MPmrpQs5pEnzUAAAAASUVORK5CYII=",
+                  "invertImage": false,
+                  "emojiColor": "#000000",
+                  "useColor": false
+                }
+              },
+              "childOrder": ["FAV_1722424704795"],
+              "label": "Interviewing",
+              "imageSrc": "",
+              "invertImage": false
+            }
+          },
+          "childOrder": [
+            "FAV_1721822459936",
+            "FAV_1712937815835",
+            "FAV_1716550089575",
+            "FAV_1712937478658",
+            "FAV_1712937469258",
+            "FAV_1713888325072",
+            "FAV_1722254307543",
+            "FAV_1722424655877"
+          ],
+          "label": "Personnel",
+          "imageSrc": "https://cdn-icons-png.freepik.com/512/912/912318.png?ga=GA1.1.676886586.1711453831",
+          "invertImage": false
+        },
+        "FAV_1712937737979": {
+          "id": "FAV_1712937737979",
+          "label": "Performance Folder",
+          "url": "https://ibm.ent.box.com/folder/187043210609?s=ybofxkwq5q2kv1saa9psefhwezb9fhth",
+          "imageSrc": "https://ibm.ent.box.com/favicon.ico",
+          "invertImage": false,
+          "emojiColor": "#000000"
+        },
+        "FAV_1713180710928": {
+          "id": "FAV_1713180710928",
+          "label": "Manager self assessment",
+          "url": "https://ibm.ent.box.com/file/1500277679263?s=4gx2l0p0pmwyr6bf8vcafz267ec10hcz",
+          "imageSrc": "https://www.pngitem.com/pimgs/m/642-6422887_manager-manager-icon-png-transparent-png.png",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        },
+        "FAV_1714049064376": {
+          "id": "FAV_1714049064376",
+          "label": "Management Scrum",
+          "url": "https://ibm.ent.box.com/notes/551575988462",
+          "imageSrc": "https://ibm.ent.box.com/favicon.ico",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        },
+        "FAV_1714416898474": {
+          "id": "FAV_1714416898474",
+          "label": "Project April",
+          "url": "https://ibm.ent.box.com/folder/254825692528",
+          "imageSrc": "https://ibm.ent.box.com/favicon.ico",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        },
+        "FAV_1715692697968": {
+          "id": "FAV_1715692697968",
+          "label": "MAS 9 security dashboard",
+          "url": "https://jsw.ibm.com/secure/Dashboard.jspa?selectPageId=153306",
+          "imageSrc": "https://jsw.ibm.com/favicon.ico",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        },
+        "FAV_1716317611012": {
+          "id": "FAV_1716317611012",
+          "label": "Recognition",
+          "url": "https://ibmrr.performnet.com/ibmrr/homePage.do",
+          "imageSrc": "🏆",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        },
+        "FAV_1713795522898": {
+          "id": "FAV_1713795522898",
+          "label": "eAMT",
+          "url": "https://eamt.us1a.cirrus.ibm.com/",
+          "imageSrc": "💻",
+          "invertImage": false,
+          "emojiColor": "#9e7676",
+          "useColor": false
+        },
+        "FAV_1717696534787": {
+          "id": "FAV_1717696534787",
+          "isFolder": true,
+          "children": {
+            "FAV_1717696529179": {
+              "id": "FAV_1717696529179",
+              "label": "Leave Policy",
+              "url": "https://w3.ibm.com/hr/policy/in-timeoff-loa/fb01-lp01",
+              "imageSrc": "https://w3.ibm.com/favicon.ico",
+              "invertImage": false,
+              "emojiColor": "#000000",
+              "useColor": false
+            }
+          },
+          "childOrder": ["FAV_1717696529179"],
+          "label": "India",
+          "imageSrc": "https://w3.ibm.com/favicon.ico",
+          "invertImage": false,
+          "emojiColor": "#000000"
+        },
+        "FAV_1719424705784": {
+          "id": "FAV_1719424705784",
+          "label": "Devices",
+          "url": "https://devices.wdc1a.cirrus.ibm.com/#/",
+          "imageSrc": "https://devices.wdc1a.cirrus.ibm.com/favicon.ico",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        },
+        "FAV_1721907279002": {
+          "id": "FAV_1721907279002",
+          "isFolder": true,
+          "children": {
+            "FAV_1721907332036": {
+              "id": "FAV_1721907332036",
+              "label": "Front End Profiles 07/25/24",
+              "url": "https://ibm.ent.box.com/folder/276708647908",
+              "imageSrc": "https://ibm.ent.box.com/favicon.ico",
+              "invertImage": false,
+              "emojiColor": "#000000",
+              "useColor": false
+            }
+          },
+          "childOrder": ["FAV_1721907332036"],
+          "label": "Hiring",
+          "imageSrc": "",
+          "invertImage": false,
+          "emojiColor": "#000000"
+        }
+      },
+      "childOrder": [
+        "FAV_1712937667148",
+        "FAV_1717696534787",
+        "FAV_1712937737979",
+        "FAV_1712937494707",
+        "FAV_1713180710928",
+        "FAV_1714049064376",
+        "FAV_1714416898474",
+        "FAV_1715692697968",
+        "FAV_1716317611012",
+        "FAV_1713795522898",
+        "FAV_1719424705784",
+        "FAV_1721907279002"
+      ],
+      "label": "Manager",
+      "imageSrc": "👥",
+      "invertImage": false
+    },
+    "FAV_1712928567085": {
+      "id": "FAV_1712928567085",
+      "isFolder": true,
+      "children": {
+        "FAV_1712937913425": {
+          "id": "FAV_1712937913425",
+          "isFolder": true,
+          "children": {
+            "FAV_1713451769411": {
+              "id": "FAV_1713451769411",
+              "label": "Graphite Runtime",
+              "url": "https://pages.github.ibm.com/maximo-app-framework/graphite/main/",
+              "imageSrc": "",
+              "invertImage": false,
+              "emojiColor": "#000000"
+            },
+            "FAV_1714647874497": {
+              "id": "FAV_1714647874497",
+              "label": "Graphite Git",
+              "url": "https://github.ibm.com/maximo-app-framework/graphite",
+              "imageSrc": "https://github.ibm.com/favicon.ico",
+              "invertImage": false,
+              "emojiColor": "#000000",
+              "useColor": false
+            },
+            "FAV_1717588610842": {
+              "id": "FAV_1717588610842",
+              "label": "Maximo Git",
+              "url": "https://github.ibm.com/maximo/maximo",
+              "imageSrc": "https://github.ibm.com/favicon.ico",
+              "invertImage": false,
+              "emojiColor": "#000000",
+              "useColor": false
+            }
+          },
+          "childOrder": [
+            "FAV_1714647874497",
+            "FAV_1713451769411",
+            "FAV_1717588610842"
+          ],
+          "label": "Github",
+          "imageSrc": "https://assets.github.ibm.com/favicons/favicon-ent.png",
+          "invertImage": false
+        },
+        "FAV_1712937951818": {
+          "id": "FAV_1712937951818",
+          "label": "Local Maximo",
+          "url": "http://localhost:7001/maximo",
+          "imageSrc": "https://maximo.amtrak.com/maximo/webclient/login/images/mx_icon.png",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        },
+        "FAV_1713281646010": {
+          "id": "FAV_1713281646010",
+          "label": "Salesforce",
+          "url": "https://ibmsf.lightning.force.com/lightning/o/Case/list?filterName=00B0z000008ECpCEAW",
+          "imageSrc": "https://ibmsf.lightning.force.com/favicon.ico",
+          "invertImage": false,
+          "emojiColor": "#000000"
+        },
+        "FAV_1713958503162": {
+          "id": "FAV_1713958503162",
+          "isFolder": true,
+          "children": {
+            "FAV_1713958488555": {
+              "id": "FAV_1713958488555",
+              "label": "Common UI Sprint Board",
+              "url": "https://jsw.ibm.com/secure/RapidBoard.jspa?rapidView=7884&view=detail&selectedIssue=GRAPHITE-73754#",
+              "imageSrc": "https://jsw.ibm.com/s/-cayraa/9120006/192zv82/_/images/fav-jsw.png",
+              "invertImage": false,
+              "emojiColor": "#000000",
+              "useColor": false
+            },
+            "FAV_1713958431980": {
+              "id": "FAV_1713958431980",
+              "label": "9.0 Plan",
+              "url": "https://jsw.ibm.com/secure/PortfolioPlanView.jspa?id=11944&sid=12074&vid=36061#plan/backlog",
+              "imageSrc": "https://jsw.ibm.com/s/-cayraa/9120006/192zv82/_/images/fav-jsw.png",
+              "invertImage": false,
+              "emojiColor": "#000000",
+              "useColor": false
+            },
+            "FAV_1713544180263": {
+              "id": "FAV_1713544180263",
+              "label": "Common UI Dashboard",
+              "url": "https://jsw.ibm.com/secure/Dashboard.jspa?selectPageId=54403",
+              "imageSrc": "https://jsw.ibm.com/s/-cayraa/9120006/192zv82/_/images/fav-jsw.png",
+              "invertImage": false,
+              "emojiColor": "#000000",
+              "useColor": false
+            },
+            "FAV_1715010783768": {
+              "id": "FAV_1715010783768",
+              "label": "Open APARs",
+              "url": "https://jsw.ibm.com/secure/Dashboard.jspa?selectPageId=150823",
+              "imageSrc": "https://jsw.ibm.com/s/-cayraa/9120006/192zv82/_/images/fav-jsw.png",
+              "invertImage": false,
+              "emojiColor": "#000000",
+              "useColor": false
+            },
+            "FAV_1717508966457": {
+              "id": "FAV_1717508966457",
+              "label": "MAS 9.0 defect backlog",
+              "url": "https://jsw.ibm.com/secure/Dashboard.jspa?selectPageId=151428#",
+              "imageSrc": "https://jsw.ibm.com/s/-cayraa/9120006/192zv82/_/images/fav-jsw.png",
+              "invertImage": false,
+              "emojiColor": "#000000",
+              "useColor": false
+            },
+            "FAV_1718022104073": {
+              "id": "FAV_1718022104073",
+              "isFolder": true,
+              "children": {
+                "FAV_1716205735885": {
+                  "id": "FAV_1716205735885",
+                  "label": "Jira Automation SmartValues",
+                  "url": "https://support.atlassian.com/cloud-automation/docs/jira-smart-values-issues/",
+                  "imageSrc": "https://support.atlassian.com/favicon.ico",
+                  "invertImage": false,
+                  "emojiColor": "#000000",
+                  "useColor": false
+                }
+              },
+              "childOrder": ["FAV_1716205735885"],
+              "label": "Help / Docs",
+              "imageSrc": "🗎",
+              "invertImage": true
+            }
+          },
+          "childOrder": [
+            "FAV_1713958488555",
+            "FAV_1713958431980",
+            "FAV_1713544180263",
+            "FAV_1715010783768",
+            "FAV_1717508966457",
+            "FAV_1718022104073"
+          ],
+          "label": "Jira",
+          "imageSrc": "https://jsw.ibm.com/s/-cayraa/9120006/192zv82/_/images/fav-jsw.png",
+          "invertImage": false,
+          "emojiColor": "#000000"
+        },
+        "FAV_1715283737506": {
+          "id": "FAV_1715283737506",
+          "label": "MAS Playbook",
+          "url": "https://pages.github.ibm.com/maximoappsuite/playbook/process/prioritization/",
+          "imageSrc": "🏠",
+          "invertImage": true,
+          "emojiColor": "#000000",
+          "useColor": true
+        },
+        "FAV_1716385203655": {
+          "id": "FAV_1716385203655",
+          "label": "MAS FVT",
+          "url": "https://jsw.ibm.com/secure/Dashboard.jspa?selectPageId=156859",
+          "imageSrc": "https://jsw.ibm.com/favicon.ico",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        },
+        "FAV_1715860321696": {
+          "id": "FAV_1715860321696",
+          "label": "Local Storybook",
+          "url": "http://localhost:9001/?path=/story/*",
+          "imageSrc": "https://www.pngfind.com/pngs/m/493-4934627_storybook-icon-ddf01037-storybook-js-hd-png-download.png",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        },
+        "FAV_1717882649158": {
+          "id": "FAV_1717882649158",
+          "label": "Graphite Version",
+          "url": "https://github.ibm.com/maximo-app-framework/graphite/commit/716df0d2691e145f943afb656402c3cff73db4cd",
+          "imageSrc": "https://github.ibm.com/favicon.ico",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        },
+        "FAV_1721655692199": {
+          "id": "FAV_1721655692199",
+          "label": "Maximo Environments",
+          "url": "http://mxenvlib1.fyre.ibm.com:1880/ui/#!/0?socketid=6H_6t_dd5yrjxZ8MAA30",
+          "imageSrc": "http://mxenvlib1.fyre.ibm.com:1880/favicon.ico",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        }
+      },
+      "childOrder": [
+        "FAV_1712937913425",
+        "FAV_1712937951818",
+        "FAV_1713281646010",
+        "FAV_1713958503162",
+        "FAV_1715283737506",
+        "FAV_1716385203655",
+        "FAV_1715860321696",
+        "FAV_1717882649158",
+        "FAV_1721655692199"
+      ],
+      "label": "Coding",
+      "imageSrc": "<\\>",
+      "invertImage": true
+    },
+    "FAV_1712929995257": {
+      "id": "FAV_1712929995257",
+      "isFolder": true,
+      "children": {
+        "FAV_1712930138656": {
+          "id": "FAV_1712930138656",
+          "isFolder": true,
+          "children": {
+            "FAV_1712932087122": {
+              "id": "FAV_1712932087122",
+              "label": "DCU",
+              "url": "https://www.dcu.org/index.html",
+              "imageSrc": "https://www.dcu.org/etc.clientlibs/dcu/clientlibs/clientlib-site/resources/images/svg/DCUGreen.svg",
+              "invertImage": false,
+              "emojiColor": "#000000"
+            },
+            "FAV_1718719742883": {
+              "id": "FAV_1718719742883",
+              "label": "Coastal Credit Union",
+              "url": "https://www.coastal24.com/",
+              "imageSrc": "https://www.coastal24.com/favicon.ico",
+              "invertImage": false,
+              "emojiColor": "#000000",
+              "useColor": false
+            },
+            "FAV_1722628795544": {
+              "id": "FAV_1722628795544",
+              "label": "Wells Fargo",
+              "url": "https://www.wellsfargo.com/",
+              "imageSrc": "/favicon.ico",
+              "invertImage": false,
+              "emojiColor": "#000000",
+              "useColor": false
+            }
+          },
+          "childOrder": [
+            "FAV_1712932087122",
+            "FAV_1718719742883",
+            "FAV_1722628795544"
+          ],
+          "label": "Banking",
+          "imageSrc": "$$",
+          "invertImage": false
+        },
+        "FAV_1712930193424": {
+          "id": "FAV_1712930193424",
+          "isFolder": true,
+          "children": {
+            "FAV_1712930359919": {
+              "id": "FAV_1712930359919",
+              "label": "Citibank",
+              "url": "https://www.citi.com/",
+              "imageSrc": "https://www.citi.com/favicon.ico",
+              "invertImage": false,
+              "emojiColor": "#000000"
+            },
+            "FAV_1712930383071": {
+              "id": "FAV_1712930383071",
+              "label": "Samsung",
+              "url": "https://www.myonlineaccount.net",
+              "imageSrc": "https://www.myonlineaccount.net/favicon.ico",
+              "invertImage": false,
+              "emojiColor": "#000000"
+            },
+            "FAV_1712930399952": {
+              "id": "FAV_1712930399952",
+              "label": "Capital One",
+              "url": "https://verified.capitalone.com/auth/signin?error=201018",
+              "imageSrc": "https://verified.capitalone.com/favicon.ico",
+              "invertImage": false,
+              "emojiColor": "#000000"
+            },
+            "FAV_1712930409026": {
+              "id": "FAV_1712930409026",
+              "label": "Barclays",
+              "url": "https://cards.barclaycardus.com/?p=jetblue",
+              "imageSrc": "https://cards.barclaycardus.com/favicon.ico",
+              "invertImage": false,
+              "emojiColor": "#000000"
+            },
+            "FAV_1712931922419": {
+              "id": "FAV_1712931922419",
+              "label": "Chase",
+              "url": "https://secure03b.chase.com/web/auth/dashboard#/dashboard/overviewAccounts/overview/index",
+              "imageSrc": "https://secure03b.chase.com/favicon.ico",
+              "invertImage": false,
+              "emojiColor": "#000000"
+            },
+            "FAV_1712931963420": {
+              "id": "FAV_1712931963420",
+              "label": "Synchrony",
+              "url": "https://www.synchrony.com",
+              "imageSrc": "https://www.synchrony.com/favicon.ico",
+              "invertImage": false,
+              "emojiColor": "#000000"
+            },
+            "FAV_1712931970003": {
+              "id": "FAV_1712931970003",
+              "label": "Home Depot",
+              "url": "https://citiretailservices.citibankonline.com/RSnextgen/svc/launch/index.action?siteId=PLCN_HOMEDEPOT&langId=en_US&pagename=authenticate#dashboard",
+              "imageSrc": "https://corporate.homedepot.com/themes/custom/bootstrap_thd/images/logo-site-header-homedepot.svg",
+              "invertImage": false,
+              "emojiColor": "#000000"
+            },
+            "FAV_1722628777696": {
+              "id": "FAV_1722628777696",
+              "label": "Wells Fargo",
+              "url": "https://www.wellsfargo.com/",
+              "imageSrc": "https://www.wellsfargo.com/favicon.ico",
+              "invertImage": false,
+              "emojiColor": "#000000",
+              "useColor": false
+            }
+          },
+          "childOrder": [
+            "FAV_1712930359919",
+            "FAV_1712930383071",
+            "FAV_1712930399952",
+            "FAV_1712930409026",
+            "FAV_1712931922419",
+            "FAV_1712931963420",
+            "FAV_1712931970003",
+            "FAV_1722628777696"
+          ],
+          "label": "Credit",
+          "imageSrc": "💳",
+          "invertImage": false
+        },
+        "FAV_1712932139122": {
+          "id": "FAV_1712932139122",
+          "label": "MY Cloud",
+          "url": "https://home.mycloud.com/",
+          "imageSrc": "https://home.mycloud.com/favicon.ico",
+          "invertImage": false,
+          "emojiColor": "#000000"
+        },
+        "FAV_1712932148650": {
+          "id": "FAV_1712932148650",
+          "label": "Family Album",
+          "url": "https://mitene.us/f/S-w7Ju8QO20",
+          "imageSrc": "📷",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        },
+        "FAV_1712932212066": {
+          "id": "FAV_1712932212066",
+          "label": "Metlife Legal",
+          "url": "https://www.metlife.com/IBM/legal-plans/",
+          "imageSrc": "⚖️",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        },
+        "FAV_1712932322002": {
+          "id": "FAV_1712932322002",
+          "isFolder": true,
+          "children": {
+            "FAV_1718983261921": {
+              "id": "FAV_1718983261921",
+              "isFolder": true,
+              "children": {
+                "FAV_1718983246161": {
+                  "id": "FAV_1718983246161",
+                  "label": "Corvette Parts Diagram",
+                  "url": "https://7zap.com/en/catalog/cars/Chevrolet/Corvette/Corvette%20(2014%20-%202014)/SkYwMzlIN1IzWUpGYVRQVzZPRWljUT09--/",
+                  "imageSrc": "file:///C:/Users/BrianRagusa/Desktop/favorites/images/corvette.logo.png",
+                  "invertImage": false,
+                  "emojiColor": "#000000",
+                  "useColor": false
+                },
+                "FAV_1712932342386": {
+                  "id": "FAV_1712932342386",
+                  "label": "GM Parts",
+                  "url": "https://www.gmpartsdirect.com/oem-parts/gm-weatherstrip-84007386",
+                  "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/d/d6/General_Motors_logo.svg",
+                  "invertImage": false,
+                  "emojiColor": "#000000",
+                  "useColor": false
+                }
+              },
+              "childOrder": ["FAV_1718983246161", "FAV_1712932342386"],
+              "label": "Corvette",
+              "imageSrc": "images/corvette.logo.png",
+              "invertImage": false,
+              "emojiColor": "#000000"
+            },
+            "FAV_1722613295633": {
+              "id": "FAV_1722613295633",
+              "isFolder": true,
+              "children": {
+                "FAV_1722613342550": {
+                  "id": "FAV_1722613342550",
+                  "label": "Genesis",
+                  "url": "https://owners.genesis.com",
+                  "imageSrc": "https://owners.genesis.com/etc/designs/ownercommon/us/clientlib-site/images/favicon.ico",
+                  "invertImage": false,
+                  "emojiColor": "#000000",
+                  "useColor": false
+                },
+                "FAV_1722613428368": {
+                  "id": "FAV_1722613428368",
+                  "label": "Genesis Finance",
+                  "url": "https://www.genesisfinanceusa.com/home",
+                  "imageSrc": "https://www.genesisfinanceusa.com/favicon.ico",
+                  "invertImage": false,
+                  "emojiColor": "#000000",
+                  "useColor": false
+                }
+              },
+              "childOrder": ["FAV_1722613342550", "FAV_1722613428368"],
+              "label": "Genesis",
+              "imageSrc": "data:image/jpeg;base64,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",
+              "invertImage": false,
+              "emojiColor": "#000000"
+            }
+          },
+          "childOrder": ["FAV_1718983261921", "FAV_1722613295633"],
+          "label": "Cars",
+          "imageSrc": "https://attic.sh/blqs1iny4pdwanspv7bys84pa7tk",
+          "invertImage": false,
+          "emojiColor": "#000000"
+        },
+        "FAV_1714044704518": {
+          "id": "FAV_1714044704518",
+          "isFolder": true,
+          "children": {
+            "FAV_1714044655142": {
+              "id": "FAV_1714044655142",
+              "label": "West Orange Center",
+              "url": "https://www.westorangenursing.com/contact/",
+              "imageSrc": "https://www.westorangenursing.com/wp-content/themes/riverdale/img/favicon-32x32.png",
+              "invertImage": false,
+              "emojiColor": "#000000",
+              "useColor": false
+            },
+            "FAV_1712930339592": {
+              "id": "FAV_1712930339592",
+              "label": "Citizens",
+              "url": "https://www.citizensbank.com/homepage.aspx",
+              "imageSrc": "https://www.citizensbank.com/favicon.ico",
+              "invertImage": false,
+              "emojiColor": "#000000"
+            },
+            "FAV_1712932167386": {
+              "id": "FAV_1712932167386",
+              "label": "HOA",
+              "url": "https://www.ciranet.com/ResidentPortal/home",
+              "imageSrc": "https://www.ciranet.com/ResidentPortal/assets/images/CiraNetLogo.svg",
+              "invertImage": false,
+              "emojiColor": "#000000"
+            }
+          },
+          "childOrder": [
+            "FAV_1714044655142",
+            "FAV_1712930339592",
+            "FAV_1712932167386"
+          ],
+          "label": "Moms Affairs",
+          "imageSrc": "👵🏻",
+          "invertImage": false,
+          "emojiColor": "#000000"
+        },
+        "FAV_1714044832861": {
+          "id": "FAV_1714044832861",
+          "label": "NetBenefits",
+          "url": "https://nb.fidelity.com/static/mybenefits/netbenefitslogin/#/login",
+          "imageSrc": "https://digital.fidelity.com/favicon.ico",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        },
+        "FAV_1714065468372": {
+          "id": "FAV_1714065468372",
+          "label": "Maximo Environments",
+          "url": "http://mxenvlib1.fyre.ibm.com:1880/ui/#!/0?socketid=6H_6t_dd5yrjxZ8MAA30",
+          "imageSrc": "http://mxenvlib1.fyre.ibm.com:1880/favicon.ico",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        },
+        "FAV_1717608912414": {
+          "id": "FAV_1717608912414",
+          "label": "Fidelity",
+          "url": "https://digital.fidelity.com/prgw/digital/login/full-page?AuthRedUrl=https://digital.fidelity.com/ftgw/digital/cashmanagement/account/219779396",
+          "imageSrc": "https://digital.fidelity.com/favicon.ico",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        },
+        "FAV_1718983099979": {
+          "id": "FAV_1718983099979",
+          "label": "Corvette Parts",
+          "url": "https://7zap.com/en/catalog/cars/Chevrolet/Corvette/Corvette%20(2014%20-%202014)/SkYwMzlIN1IzWUpGYVRQVzZPRWljUT09--/",
+          "imageSrc": "https://attic.sh/qejjla6y647dynqi6onz2of2gj93",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        },
+        "FAV_1720611435716": {
+          "id": "FAV_1720611435716",
+          "label": "Apex Mental Health",
+          "url": "https://apexmh.intakeq.com/portal",
+          "imageSrc": "https://apexmh.intakeq.com/favicon.ico",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        },
+        "FAV_1720615184146": {
+          "id": "FAV_1720615184146",
+          "label": "NC College Fund",
+          "url": "https://www.cfnc.org/save-for-college/",
+          "imageSrc": "🎓",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        },
+        "FAV_1721050960637": {
+          "id": "FAV_1721050960637",
+          "label": "Loan Calculator",
+          "url": "https://members.legalplans.com/services",
+          "imageSrc": "🏛️",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        },
+        "FAV_1721757600709": {
+          "id": "FAV_1721757600709",
+          "label": "Metlife Legal Plans",
+          "url": "https://members.legalplans.com/services",
+          "imageSrc": "https://members.legalplans.com/favicon.ico",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        },
+        "FAV_1721907799787": {
+          "id": "FAV_1721907799787",
+          "isFolder": true,
+          "children": {
+            "FAV_1721908267059": {
+              "id": "FAV_1721908267059",
+              "label": "test",
+              "url": "https://ibm.ent.box.com/folder/276708647908",
+              "imageSrc": "https://ibm.ent.box.com/favicon.ico",
+              "invertImage": false,
+              "emojiColor": "#000000",
+              "useColor": false
+            }
+          },
+          "childOrder": ["FAV_1721908267059"],
+          "label": "test",
+          "imageSrc": "",
+          "invertImage": false,
+          "emojiColor": "#000000"
+        }
+      },
+      "childOrder": [
+        "FAV_1712932322002",
+        "FAV_1712930193424",
+        "FAV_1712932139122",
+        "FAV_1712932148650",
+        "FAV_1712932212066",
+        "FAV_1718983099979",
+        "FAV_1714044704518",
+        "FAV_1712930138656",
+        "FAV_1714044832861",
+        "FAV_1717608912414",
+        "FAV_1714065468372",
+        "FAV_1720611435716",
+        "FAV_1721050960637",
+        "FAV_1720615184146",
+        "FAV_1721757600709",
+        "FAV_1721907799787"
+      ],
+      "label": "Home",
+      "imageSrc": "https://attic.sh/bmeeakk6g8lhlmdm71vbpc1ibggt",
+      "invertImage": false
+    },
+    "FAV_1713183435245": {
+      "id": "FAV_1713183435245",
+      "isFolder": true,
+      "children": {
+        "FAV_1713183453590": {
+          "id": "FAV_1713183453590",
+          "label": "Book a room",
+          "url": "https://gre.tririga.com/p/web/roomReservation?homeApp=workplaceServices#!/find/-1",
+          "imageSrc": "https://gre.tririga.com/images/icons/ux_favicon-32x32.png",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        },
+        "FAV_1714059023560": {
+          "id": "FAV_1714059023560",
+          "label": "Find a Room",
+          "url": "https://gre.tririga.com/p/web/locate?homeApp=workplaceServices&overrideBuildingId=133080142",
+          "imageSrc": "https://gre.tririga.com/images/icons/ux_favicon-32x32.png",
+          "invertImage": true,
+          "emojiColor": "#000000",
+          "useColor": false
+        },
+        "FAV_1721668777289": {
+          "id": "FAV_1721668777289",
+          "label": "IBM Cafeterias",
+          "url": "https://w3.ibm.com/w3publisher/ibm-rtp/site-information/cafeterias/cafe-menus",
+          "imageSrc": "🍔",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        },
+        "FAV_1722346739597": {
+          "id": "FAV_1722346739597",
+          "label": "RTP Site Information",
+          "url": "https://w3.ibm.com/w3publisher/ibm-rtp/site-information",
+          "imageSrc": "https://w3.ibm.com/favicon.ico",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        }
+      },
+      "childOrder": [
+        "FAV_1713183453590",
+        "FAV_1721668777289",
+        "FAV_1714059023560",
+        "FAV_1722346739597"
+      ],
+      "label": "RTP",
+      "imageSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiFgLYRYur9PMRb_KUqophwF3Hol-EoOjukhOuzn2ouQ&s",
+      "invertImage": false,
+      "emojiColor": "#000000"
+    },
+    "FAV_1713440023664": {
+      "id": "FAV_1713440023664",
+      "isFolder": true,
+      "children": {
+        "FAV_1713440334879": {
+          "id": "FAV_1713440334879",
+          "label": "Home Folder",
+          "url": "https://ibm.ent.box.com/folder/0",
+          "imageSrc": "https://ibm.ent.box.com/favicon.ico",
+          "invertImage": false,
+          "emojiColor": "#000000"
+        },
+        "FAV_1713440357216": {
+          "id": "FAV_1713440357216",
+          "label": "Mas 9.0",
+          "url": "https://ibm.ent.box.com/folder/227197962199",
+          "imageSrc": "https://ibm.ent.box.com/favicon.ico",
+          "invertImage": false,
+          "emojiColor": "#000000"
+        }
+      },
+      "childOrder": ["FAV_1713440334879", "FAV_1713440357216"],
+      "label": "Box Folders",
+      "imageSrc": "https://cdn01.boxcdn.net/_assets/img/favicons/apple-touch-icon-60x60-Uv0qzu.png",
+      "invertImage": false,
+      "emojiColor": "#000000"
+    },
+    "FAV_1714059704631": {
+      "id": "FAV_1714059704631",
+      "isFolder": true,
+      "children": {
+        "FAV_1714058055924": {
+          "id": "FAV_1714058055924",
+          "label": "Computershare",
+          "url": "https://www-us.computershare.com/Employee/Login/SelectCompany.aspx",
+          "imageSrc": "https://ih0.redbubble.net/image.2809525547.0919/raf,360x360,075,t,fafafa:ca443f4786.jpg",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        },
+        "FAV_1713286281703": {
+          "id": "FAV_1713286281703",
+          "label": "Netbenefits",
+          "url": "https://nb.fidelity.com/static/mybenefits/netbenefitslogin/#/login",
+          "imageSrc": "https://digital.fidelity.com/favicon.ico",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        },
+        "FAV_1714058002517": {
+          "id": "FAV_1714058002517",
+          "label": "Stock Plan Connect",
+          "url": "https://atwork.morganstanley.com/solium/servlet/userLogin.do",
+          "imageSrc": "https://atwork.morganstanley.com/favicon.ico",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        },
+        "FAV_1716216140569": {
+          "id": "FAV_1716216140569",
+          "label": "IBM Benefits Center",
+          "url": "https://w3.ibm.com/w3publisher/us-benefits/support",
+          "imageSrc": "https://w3.ibm.com/favicon.ico",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        }
+      },
+      "childOrder": [
+        "FAV_1714058055924",
+        "FAV_1714058002517",
+        "FAV_1713286281703",
+        "FAV_1716216140569"
+      ],
+      "label": "Benefits",
+      "imageSrc": "",
+      "invertImage": false
+    },
+    "FAV_1714060586820": {
+      "id": "FAV_1714060586820",
+      "isFolder": true,
+      "children": {
+        "FAV_1712937577683": {
+          "id": "FAV_1712937577683",
+          "label": "Team Calendar",
+          "url": "https://csptools.cloud.ibm.com/star/org.jsp?orgid=17425",
+          "imageSrc": "✩",
+          "invertImage": true,
+          "emojiColor": "#000000",
+          "useColor": true
+        },
+        "FAV_1712937606739": {
+          "id": "FAV_1712937606739",
+          "label": "Calendar",
+          "url": "https://calendar.google.com/calendar/u/0/r/month",
+          "imageSrc": "https://ssl.gstatic.com/calendar/images/dynamiclogo_2020q4/calendar_25_2x.png",
+          "invertImage": false,
+          "emojiColor": "#000000"
+        },
+        "FAV_1719246836911": {
+          "id": "FAV_1719246836911",
+          "label": "Time and Date Calculator",
+          "url": "https://www.timeanddate.com/date/dateadd.html?d1=29&m1=05&y1=2024&",
+          "imageSrc": "https://www.timeanddate.com/favicon.ico",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        }
+      },
+      "childOrder": [
+        "FAV_1712937577683",
+        "FAV_1712937606739",
+        "FAV_1719246836911"
+      ],
+      "label": "Scheduling",
+      "imageSrc": "https://ssl.gstatic.com/calendar/images/dynamiclogo_2020q4/calendar_25_2x.png",
+      "invertImage": false
+    },
+    "FAV_1714064661144": {
+      "id": "FAV_1714064661144",
+      "label": "Release 9.0 Scrum of Scrums",
+      "url": "https://ibm.ent.box.com/notes/1318183994051",
+      "imageSrc": "https://ibm.ent.box.com/favicon.ico",
+      "invertImage": false,
+      "emojiColor": "#000000",
+      "useColor": false
+    },
+    "FAV_1716382729092": {
+      "id": "FAV_1716382729092",
+      "label": "CitiManager",
+      "url": "https://home.cards.citidirect.com/CommercialCard/ch/home",
+      "imageSrc": "https://www.citi.com/CBOL/IA/Angular/assets/citiredesign.svg",
+      "invertImage": false,
+      "emojiColor": "#000000",
+      "useColor": false
+    },
+    "FAV_1717454905523": {
+      "id": "FAV_1717454905523",
+      "label": "News",
+      "url": "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en",
+      "imageSrc": "📰",
+      "invertImage": false,
+      "emojiColor": "#000000",
+      "useColor": false
+    },
+    "FAV_1717679439687": {
+      "id": "FAV_1717679439687",
+      "label": "OneDrive",
+      "url": "https://ibm-my.sharepoint.com/personal/bragusa_us_ibm_com/_layouts/15/onedrive.aspx?view=1",
+      "imageSrc": "https://ibm-my.sharepoint.com/_layouts/15/images/odbfavicon.ico?rev=47",
+      "invertImage": false,
+      "emojiColor": "#000000",
+      "useColor": false
+    },
+    "FAV_1718111900740": {
+      "id": "FAV_1718111900740",
+      "label": "Weather",
+      "url": "https://weather.com/weather/today/l/f9bdb32285069e411db0dc8baab728a02ad8e3bb6226fd4ec2a49d40342f5404",
+      "imageSrc": "https://weather.com/favicon.ico",
+      "invertImage": false,
+      "emojiColor": "#000000",
+      "useColor": false
+    },
+    "FAV_1719329549278": {
+      "id": "FAV_1719329549278",
+      "label": "Local Maximo",
+      "url": "http://localhost:7001/maximo",
+      "imageSrc": "data:image/png;base64,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",
+      "invertImage": false,
+      "emojiColor": "#000000",
+      "useColor": false
+    },
+    "FAV_1721245660783": {
+      "id": "FAV_1721245660783",
+      "isFolder": true,
+      "children": {
+        "FAV_lxuhkcox": {
+          "id": "FAV_lxuhkcox",
+          "label": "Open APARs",
+          "url": "https://jsw.ibm.com/secure/Dashboard.jspa?selectPageId=150823",
+          "imageSrc": "https://jsw.ibm.com/s/-cayraa/9120006/192zv82/_/images/fav-jsw.png",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        },
+        "FAV_1721245716391": {
+          "id": "FAV_1721245716391",
+          "label": "Common UI Daily Dashboard",
+          "url": "https://jsw.ibm.com/secure/Dashboard.jspa?selectPageId=164424",
+          "imageSrc": "data:image/png;base64,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",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        },
+        "FAV_1721913772711": {
+          "id": "FAV_1721913772711",
+          "label": "FVT Tracking Dashboard",
+          "url": "https://jsw.ibm.com/secure/Dashboard.jspa?selectPageId=155013",
+          "imageSrc": "https://jsw.ibm.com/s/-cayraa/9120006/192zv82/_/images/fav-jsw.png",
+          "invertImage": false,
+          "emojiColor": "#000000",
+          "useColor": false
+        }
+      },
+      "childOrder": ["FAV_1721245716391", "FAV_lxuhkcox", "FAV_1721913772711"],
+      "label": "Morning Coffee",
+      "imageSrc": "☕",
+      "invertImage": false,
+      "emojiColor": "#000000"
+    },
+    "FAV_1721304530204": {
+      "id": "FAV_1721304530204",
+      "label": "WCA Tips",
+      "url": "https://ibm.ent.box.com/notes/1593046278231",
+      "imageSrc": "https://ibm.ent.box.com/favicon.ico",
+      "invertImage": false,
+      "emojiColor": "#000000",
+      "useColor": false
+    },
+    "FAV_1721408929641": {
+      "id": "FAV_1721408929641",
+      "label": "Local Storybook",
+      "url": "http://localhost:9001/?path=/story/*",
+      "imageSrc": "https://static-00.iconduck.com/assets.00/storybook-icon-icon-1645x2048-ir1mrc43.png",
+      "invertImage": false,
+      "emojiColor": "#000000",
+      "useColor": false
+    },
+    "FAV_1714065493941": {
+      "id": "FAV_1714065493941",
+      "label": "Maximo Environments",
+      "url": "http://mxenvlib1.fyre.ibm.com:1880/ui/#!/0?socketid=6H_6t_dd5yrjxZ8MAA30",
+      "imageSrc": "http://mxenvlib1.fyre.ibm.com:1880/favicon.ico",
+      "invertImage": false,
+      "emojiColor": "#000000",
+      "useColor": false
+    },
+    "FAV_1722534102839": {
+      "id": "FAV_1722534102839",
+      "label": "Stopwatch",
+      "url": "https://vclock.com/stopwatch/#start=2024-08-01T13:41:24.440",
+      "imageSrc": "⏱️",
+      "invertImage": false,
+      "emojiColor": "#000000",
+      "useColor": false
+    }
+  }
+}

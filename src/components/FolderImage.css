@@ -1,0 +1,73 @@
+.folder-svg g {
+  stroke: none;
+  stroke-width: 0;
+  stroke-dasharray: none;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 10;
+  fill: none;
+  fill-rule: nonzero;
+  opacity: 1
+}
+.folder-svg g path:first-of-type {
+  stroke: none;
+  stroke-width: 1;
+  stroke-dasharray: none;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 10;
+  fill: rgb(255,200,67);
+  fill-rule: nonzero;
+  opacity: 1;
+  filter: invert(0.25);
+}
+
+.folder-svg g path:last-of-type {
+  stroke: none;
+  stroke-width: 1;
+  stroke-dasharray: none;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 10;
+  fill: rgb(255,200,67);
+  fill-rule: nonzero;
+  opacity: 1
+}
+
+
+.folder-svg-open g {
+  stroke: none; 
+  stroke-width: 0; 
+  stroke-dasharray: none; 
+  stroke-linecap: butt; 
+  stroke-linejoin: miter; 
+  stroke-miterlimit: 10; 
+  fill: none; 
+  fill-rule: nonzero; 
+  opacity: 1
+}
+
+.folder-svg-open g path:first-of-type {
+  stroke: none;
+  stroke-width: 1;
+  stroke-dasharray: none;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 10;
+  fill: rgb(255,200,67);
+  fill-rule: nonzero;
+  opacity: 1;
+  filter: invert(0.25);
+}
+
+.folder-svg-open g path:last-of-type {
+  stroke: none;
+  stroke-width: 1;
+  stroke-dasharray: none;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 10;
+  fill: rgb(255,200,67);
+  fill-rule: nonzero;
+  opacity: 1
+}

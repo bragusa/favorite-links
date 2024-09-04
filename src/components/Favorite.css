@@ -1,0 +1,232 @@
+.fav-favorite {
+  box-sizing: border-box;
+  width: 7rem;
+  height: 7rem;
+  max-width: 7rem;
+  max-height: 7rem;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  transition: font-size .3s ease, opacity .3s ease, transform .3s ease, border-color .3s ease, width .3s, height .3s;
+  position: relative;
+  padding: 0.5rem;
+}
+
+.fav-favorite:not([data-dragging]):not(.fav-ghost) {
+  opacity: 0;
+}
+
+.fav-dragNode {
+  opacity: .25;
+}
+
+.fav-favorite.fav-ghost,
+.fav-favorite[data-dragging]:not(.fav-ghost) {
+  border: 0px dotted rgb(69, 69, 159);
+  width: 0;
+  height: 0;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  opacity: 1;
+}
+
+.fav-favorite.fav-ghost[data-visible],
+.fav-favorite.fav-ghost[data-dragging] {
+  border: 1px dotted rgb(69, 69, 159);
+  width: 7rem;
+  height: 7rem;
+  max-width: 7rem;
+  max-height: 7rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.fav-favorite[data-drag-over='true'] {
+  border: 1px dotted rgb(69, 69, 159) !important;
+}
+
+.fav-favorites:not([data-dragging='true']) .fav-favorite:not(.fav-ghost):hover {
+  transform: scale(1.1);
+  border-color: #fff;
+  font-size: 120%;
+}
+
+.fav-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-size: 0.7rem;
+  height: 2rem;
+  bottom: 0.25rem;
+  position: absolute;
+  min-height: 2rem;
+  text-align: center;
+  line-height: 0.75rem;
+  pointer-events: none;
+}
+
+.fav-link {
+  cursor: pointer;
+}
+
+.folder-image,
+.folder-open-image {
+  position: absolute;
+  margin: auto auto;
+  width: 6rem;
+  margin-top: -1.25rem;
+  opacity: 1;
+  transition: opacity .3s ease;
+}
+
+.folder-open-image {
+  opacity: 0;
+}
+
+.folder-image svg,
+.folder-open-image svg {
+  width: 6rem;
+  height: 5rem;
+  filter: drop-shadow(1px 1px 1px #eeeeee);
+}
+
+.fav-favorite:hover .folder-image {
+  opacity: 0;
+}
+
+.fav-favorite:hover .folder-open-image {
+  opacity: 1;
+}
+
+.fav-image {
+  position: relative;
+  margin: auto;
+  top: 0;
+  transform: scale(1.5);
+  pointer-events: none;
+  z-index: 1;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  transition: transform .2s
+}
+
+.fav-image img {
+  width: 1.5rem;
+  height: 1.5rem;
+  max-width: 1.5rem;
+  max-height: 1.5rem;
+  pointer-events: none;
+  margin-top: 0.5rem;
+  transition: all .3s;
+}
+
+.fav-favorite.fav-folder-link:hover .fav-image {
+  font-size: 175%;
+  transform: skewX(-15deg);
+  margin-top: 1.8rem;
+}
+
+.fav-favorite:hover .fav-image {
+  transform: scale(2);
+}
+
+.fav-favorite.fav-folder-link:hover .fav-image img {
+  margin-left: 0.5rem;
+  transform: scale(1.5);
+}
+
+div[data-invert='true'],
+img[data-invert='true'],
+input[data-invert='true'] {
+  filter: invert(1);
+}
+
+div[data-invert='true'] img[data-invert='true'] {
+  filter: invert(0);
+}
+
+.fav-favorite a {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  min-width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+.fav-menu {
+  display: none;
+  z-index: 1;
+  background-color: black;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  margin-top: -2rem;
+}
+
+.fav-menu li {
+  border: 1px solid #585858;
+  border-bottom-width: 0;
+  line-height: 1.75rem;
+  padding-inline: 0.5rem;
+  background-color: black;
+  font-size: 80%;
+
+  align-items: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+}
+
+.fav-menu li span {
+  display: contents;
+  font-size: 70%;
+  line-height: 20px;
+}
+
+.fav-menu li svg {
+  fill: #fff;
+  transform: scale(0.75);
+  margin-inline-end: 0.25rem;
+  height: 100%;
+  flex: none;
+}
+
+.fav-menu li:hover {
+  background-color: rgb(41, 41, 41);
+}
+
+.fav-menu li.menu-sep + li {
+  border-top: 0;
+}
+
+.fav-menu li:last-of-type {
+  border-bottom-width: 1px;
+}
+
+.fav-favorite[data-show-menu='true'] .fav-menu {
+  display: flex;
+}
+
+.fav-menu li.menu-sep {
+  border: 0;
+  border-bottom: 1px solid #fff;
+}
+
+/* .fav-sub-folder {
+  width: calc(100vw - 2rem);
+  border: 1px solid #999;
+  margin: 1rem;
+} */

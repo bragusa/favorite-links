@@ -1,0 +1,95 @@
+.folder-color-dialog .fav-folder-link::before {
+  font-size: 2rem;
+}
+
+.folder-color-dialog ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  justify-content: center;
+}
+
+.folder-color-dialog ul li {
+  padding: 0;
+  display: flex;
+  align-items: baseline;
+  font-size: 1rem;
+  font-size: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all .2s;
+  cursor: default;
+  background: #000;
+  margin: 0.25rem 0.5rem;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.folder-color-dialog ul li[data-current='true'] {
+  border: 1px solid rgb(90, 90, 124);
+}
+
+.folder-color-dialog ul li:hover {
+  transform: scale(1.25);
+}
+
+.folder-color-dialog ul li span {
+  font-size: 3rem;
+  display: block;
+}
+
+.folder-color-dialog ul li * {
+  pointer-events: none;
+}
+
+li[data-folder-color='red'] span,
+.fav-folder-link[data-folder-color='red']:before {
+  filter: invert(1) hue-rotate(120deg);
+}
+
+li[data-folder-color='green'] span,
+.fav-folder-link[data-folder-color='green']:before {
+  filter: invert(1) hue-rotate(275deg)
+}
+
+li[data-folder-color='blue'] span,
+.fav-folder-link[data-folder-color='blue']:before {
+  filter: invert(1);
+}
+
+li[data-folder-color='pink'] span,
+.fav-folder-link[data-folder-color='pink']:before {
+  filter: hue-rotate(270deg);
+}
+    
+li[data-folder-color='lightblue'] span,
+.fav-folder-link[data-folder-color='lightblue']:before {
+  filter: hue-rotate(190deg);
+}
+
+li[data-folder-color='mintgreen'] span,
+.fav-folder-link[data-folder-color='mintgreen']:before {
+  filter: hue-rotate(90deg);
+}
+
+li[data-folder-color='gray'] span,
+.fav-folder-link[data-folder-color='gray']:before {
+  filter: grayscale(1);
+}
+
+li[data-folder-color='darkgray'] span,
+.fav-folder-link[data-folder-color='darkgray']:before {
+  filter: invert(.5);
+}
+
+li[data-folder-color='purple'] span,
+.fav-folder-link[data-folder-color='purple']:before {
+  filter: invert(1) hue-rotate(45deg)
+}
+
+li[data-folder-color='brown'] span,
+.fav-folder-link[data-folder-color='brown']:before {
+  filter: invert(1) hue-rotate(180deg);
+}
