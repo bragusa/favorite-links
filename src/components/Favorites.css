@@ -1,6 +1,8 @@
 .fav-folder {
   width: 100vw;
-  height: calc(100vh - 2rem);
+  display: flex;
+  justify-content: flex-start;
+  max-width: var(--max-width);
 }
 
 .fav-top-folder {
@@ -12,8 +14,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  padding: 1rem;
-  width: calc(100% - 2rem);
+  padding: 1rem 0;
+  /* width: calc(100% - 2rem); */
+  max-width: var(--max-width);
+}
+
+.fav-favorites:empty {
+  height: calc(100vh - 4rem);
 }
 
 header.fav-header {

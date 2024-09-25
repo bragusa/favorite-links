@@ -1,1 +1,1 @@
-serve -s build
+serve -l 3005 -s build

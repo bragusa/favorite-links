@@ -4,11 +4,15 @@ import './Favorite.css';
 import { Icon } from '../resources/Icons';
 import FolderImage from './FolderImage';
 
-function Favorite({goToFolder, data, dragHandler, dragInfo, appFunction, level, copied}) {
+function Favorite({goToFolder, data, dragHandler, dragInfo, appFunction, level, copied, rootId}) {
   const [showMenu, setShowMenu] = useState(false);
-  const image = data.imageSrc && data.imageSrc.length<5?data.imageSrc:<img alt='' data-invert={data.invertImage} src={data.imageSrc}/>
+  const image = data.imageSrc && data.imageSrc.length<7?data.imageSrc:<img alt='' data-invert={data.invertImage} src={data.imageSrc}/>
   const setURLPath = (index)=>{
-    window.location.pathname += `${window.location.pathname.endsWith('/')?'':'/'}${data.label.toLowerCase()}`;
+    //let newPath = `${window.location.pathname.endsWith('/')?'':'/'}${data.label.toLowerCase()}`;
+    //window.location.pathname += newPath + (rootId?`?${rootId}`:'');
+    //window.location.pathname += newPath;
+    let newPath = `${window.location.pathname.endsWith('/')?'':'/'}${data.label.toLowerCase()}`;
+    window.location.hash += newPath;
   }
   const inner = <><div className='fav-image' data-invert={data.invertImage}>{data.imageSrc?image:null}</div><div className='fav-title'><span>{data.label}</span></div></>;
   // eslint-disable-next-line jsx-a11y/anchor-is-valid

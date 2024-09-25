@@ -6,18 +6,46 @@ import {getIcon} from './resources/Icons';
 
 const storageKey = 'my-favorite-links';
 const copyKey = 'my-favorite-copied';
+const rootPath = 'favorites';
+const rootIdName = 'id';
 
 const getURLPath = ()=>{
-  let simplepath = decodeURI(window.location.pathname.substring(1));
+  let simplepath = window.location.hash.substring(2);
   if(simplepath.endsWith('/')){
     simplepath = simplepath.substring(0,simplepath.length-1);
-    
   }
-  if(simplepath.length>0){
-    return simplepath.split('/');
+  if(simplepath.length>0 && simplepath!==rootPath){
+    let pathArray = simplepath.split('/');
+    if(pathArray[0]===rootPath){
+      pathArray.splice(0,1);
+    }
+
+    let decoded = [];
+
+    pathArray.forEach(path=>{
+      decoded.push(decodeURIComponent(path));
+    })
+    
+    return decoded;
   }
   return [];
 }
+
+// const getURLPath = ()=>{
+//   let simplepath = decodeURI(window.location.pathname.substring(1));
+//   const hash = window.location.hash;
+//   if(simplepath.endsWith('/')){
+//     simplepath = simplepath.substring(0,simplepath.length-1);
+//   }
+//   if(simplepath.length>0 && simplepath!==rootPath){
+//     let pathArray = simplepath.split('/');
+//     if(pathArray[0]===rootPath){
+//       pathArray.splice(0,1);
+//     }
+//     return pathArray;
+//   }
+//   return [];
+// }
 
 function App() {
   const [copied, setCopied] = useState(JSON.parse(localStorage.getItem(copyKey) || '[]'));
@@ -32,17 +60,26 @@ function App() {
   });
   const [dialogStack, setDialogStack] = useState([]);
   const dragGhost = useRef();
+  const urlParams = new URLSearchParams(window.location.search);
+  const [rootId] = useState(urlParams.get(rootIdName)?`_${urlParams.get(rootIdName)}`:'');
+  const [hash, setHash] = useState('');
 
   const file = useRef();
   const getNewId = () => `FAV_${new Date().getTime()}`;
 
   useEffect(()=>{
-    const fetchedData =  localStorage.getItem(storageKey);
+    const fetchedData =  localStorage.getItem(`${storageKey}${rootId}`);
     if(fetchedData === null){
       writeData({childOrder: [], children:{}});
       return;
     }
     setAllData(JSON.parse(fetchedData));
+    window.addEventListener("hashchange", (evt) => {
+      const url = new URL(evt.newURL);
+      let newHash = url.hash.substring(2);
+      debugger;
+      setHash(newHash);
+    });
   }, []);
 
   useEffect(()=>{
@@ -83,7 +120,7 @@ function App() {
   }, [allData, path]);
 
   const writeData = (allData) => {
-    localStorage.setItem(storageKey, JSON.stringify(allData));
+    localStorage.setItem(`${storageKey}${rootId}`, JSON.stringify(allData));
     setAllData({...allData});
     setTimeout(()=>{
       moveToCurrentPath();
@@ -91,6 +128,42 @@ function App() {
   }
 
   useEffect(()=>{
+
+    const getPathPointer = (path) => {
+      let tempData = {...allData};
+      let tempPath = [...path].reverse();
+      while(tempPath.length>0){
+        const currentPath = tempPath.pop();
+        tempData = tempData.children[currentPath];
+      }
+      return tempData.children?tempData:allData;
+    }
+
+    const convertPathLabelsToPath = (pathLabels) => {
+      //let tempData = {...allData};
+      let tempPathLabels = [...pathLabels].reverse();
+      let newPath = [];
+      let pathPointer = getPathPointer(newPath); //top level
+      while(tempPathLabels.length>0){
+        const currentPathLabel = tempPathLabels.pop();
+        let pathId = null;
+        // eslint-disable-next-line no-loop-func
+        Object.keys(pathPointer.children).some(key=>{
+          const child = pathPointer.children[key];
+          if(child.label.toLowerCase()===currentPathLabel){
+            pathId = child.id;
+            return true;
+          }
+          return false;
+        });
+  
+        newPath.push(pathId);
+  
+        pathPointer = getPathPointer(newPath);
+      }
+      return newPath;
+    }
+
     setPathData(allData);
     if(allData){
       const urlPath = getURLPath();
@@ -99,7 +172,7 @@ function App() {
         setPath(pathFromURL);
       }
     }
-  }, [allData])
+  }, [allData, hash]);
 
   const newFolder = {
     children: {}, 
@@ -244,13 +317,16 @@ function App() {
 
   const buildBreadCrumbURLPath = (index) =>{
     const newPath = pathTitles.slice(0,index);
-    return newPath.join('/').toLowerCase();
+    return '/'+newPath.join('/').toLowerCase();
   }
 
   const breadcrumbs = <ul onClick={(evt)=>{evt.stopPropagation();evt.preventDefault();}}>
-    <li key='_root_' data-path-index={0} /* onDragOver={(evt)=>{evt.preventDefault();}} onDrop={droppedOnBreadcrumb}*/><button disabled={path.length===0} title='Go to Root' onClick={()=>{document.location.pathname='';}/*()=>goToFolder(-1)*/}>Favorites</button>{path.length>0?'/':''}</li>
+    <li key='_root_' data-path-index={0} /* onDragOver={(evt)=>{evt.preventDefault();}} onDrop={droppedOnBreadcrumb}*/><button disabled={path.length===0} title='Go to Root' onClick={()=>{document.location.hash='';setPath([]);}/*()=>goToFolder(-1)*/}>Favorites</button>{path.length>0?'/':''}</li>
     {pathTitles.map((pathTitle, index) => {
-      const internal = <><button disabled={index===path.length-1} title={`Go to ${pathTitle}`} onClick={()=>{document.location.pathname = buildBreadCrumbURLPath(index+1);}/*()=>{goToFolder(index+1)}*/}>{pathTitle}</button>{index<path.length-1?'/':''}</>;
+      const internal = <><button disabled={index===path.length-1} title={`Go to ${pathTitle}`} onClick={()=>{
+        document.location.hash=buildBreadCrumbURLPath(index+1)
+        // document.location.pathname = buildBreadCrumbURLPath(index+1);
+      }/*()=>{goToFolder(index+1)}*/}>{pathTitle}</button>{index<path.length-1?'/':''}</>;
       return <li data-path-index={index+1} onDragOver={(evt)=>{if(index<path.length-1){evt.preventDefault()}}} key={pathTitle}>{internal}</li>
     })}
   </ul>;
@@ -346,32 +422,7 @@ function App() {
         break;
     }
   }
-
-  const convertPathLabelsToPath = (pathLabels) => {
-    //let tempData = {...allData};
-    let tempPathLabels = [...pathLabels].reverse();
-    let newPath = [];
-    let pathPointer = getPathPointer(newPath); //top level
-    while(tempPathLabels.length>0){
-      const currentPathLabel = tempPathLabels.pop();
-      let pathId = null;
-      // eslint-disable-next-line no-loop-func
-      Object.keys(pathPointer.children).some(key=>{
-        const child = pathPointer.children[key];
-        if(child.label.toLowerCase()===currentPathLabel){
-          pathId = child.id;
-          return true;
-        }
-        return false;
-      });
-
-      newPath.push(pathId);
-
-      pathPointer = getPathPointer(newPath);
-    }
-    return newPath;
-  }
-
+  
   const getPathPointer = (path) => {
     let tempData = {...allData};
     let tempPath = [...path].reverse();
@@ -569,22 +620,25 @@ function App() {
   const readText = async  () => {
     const fileInput = file.current.files.item(0)
     const text = await fileInput.text();
-    localStorage.setItem(storageKey, text);
+    localStorage.setItem(`${storageKey}${rootId}`, text);
     window.location.reload();
   }
 
   return <>{pathData?<>
       <header className="App-header">
-        <div>{breadcrumbs}</div><div>
-          <button onClick={createFolder} title='Create Folder'>{getIcon('folder-add')}</button>
-          <button onClick={createFavorite} title='Create Link'>{getIcon('link')}</button>
-          <button onClick={(evt)=>{; appFunction('import', {customFunction: importFavorites, title: 'Import Favorites', name: 'Import', actions: null}, evt)}} title='Import new favorites definition'>{getIcon('upload')}</button>
-          <button onClick={download} title='Export'>{getIcon('export')}</button>
-          <input ref={file} style={{display: 'none'}} onChange={readText} type='file' />
+        <div>
+          <div>{breadcrumbs}</div>
+          <div>
+            <button onClick={createFolder} title='Create Folder'>{getIcon('folder-add')}</button>
+            <button onClick={createFavorite} title='Create Link'>{getIcon('link')}</button>
+            <button onClick={(evt)=>{; appFunction('import', {customFunction: importFavorites, title: 'Import Favorites', name: 'Import', actions: null}, evt)}} title='Import new favorites definition'>{getIcon('upload')}</button>
+            <button onClick={download} title='Export'>{getIcon('export')}</button>
+            <input ref={file} style={{display: 'none'}} onChange={readText} type='file' />
+            </div>
           </div>
       </header>
       <div ref={dragGhost} data-drag-over={'ghost'===dragInfo.id} id='ghost' onDrop={dragHandler} onDragOver={(evt)=>{evt.preventDefault()}} className='fav-favorite fav-ghost'></div>
-      <Favorites copied={copied} level={path.length} appFunction={appFunction} dragging={dragging} dragInfo={dragInfo} dragHandler={dragHandler} path={path} data={pathData} goToFolder={goToFolder} />
+      <Favorites rootId={rootId?`${rootIdName}=${rootId.substring(1)}`:''} copied={copied} level={path.length} appFunction={appFunction} dragging={dragging} dragInfo={dragInfo} dragHandler={dragHandler} path={path} data={pathData} goToFolder={goToFolder} />
     </>:null}
     {dialogStack.map((dialog, index) => {
       return <Dialog type={dialog.type} top={index===dialogStack.length-1} customFunction={dialog.customFunction} pathDataKey={pathDataKey} appFunction={appFunction} closeDialog={closeTopDialog} key={`${removeSpaces(dialog.title)}_${index}`} id={`${removeSpaces(dialog.title)}_${index}`} title={dialog.title || 'Confirmation'} content={dialog.name} message={dialog.message} subMessage={dialog.subMessage} actions={dialog.actions || []} data={dialog.data} favoriteId={dialog.favoriteId} />
