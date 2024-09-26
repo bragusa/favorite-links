@@ -80,6 +80,7 @@ function App() {
       debugger;
       setHash(newHash);
     });
+    // eslint-disable-next-line
   }, []);
 
   useEffect(()=>{
